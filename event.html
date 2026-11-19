@@ -6,7 +6,7 @@
     <title>Concert Event Card</title>
     <style>
       body {
-        background: linear-gradient(135deg, #111827, #1f1147);
+        background: linear-gradient(135deg, #a4a8b1, #113e47);
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         color: #ffffff;
         display: flex;
@@ -18,7 +18,7 @@
 
       .event-card {
         background-color: #111827;
-        border: 2px solid #ec4899;
+        border: 2px solid #e6ec48;
         border-radius: 20px;
         width: 380px;
         padding: 30px;
@@ -28,7 +28,7 @@
 
       .badge {
         display: inline-block;
-        background-color: #22c55e;
+        background-color: #bdc522;
         color: #ffffff;
         font-size: 0.75rem;
         font-weight: bold;
@@ -83,7 +83,7 @@
       .btn-ticket {
         display: block;
         text-align: center;
-        background: linear-gradient(90deg, #ec4899, #8b5cf6);
+        background: linear-gradient(90deg, #bdc522, #8b5cf6);
         color: #ffffff;
         text-decoration: none;
         font-weight: bold;
@@ -97,36 +97,83 @@
       .btn-ticket:hover {
         opacity: 0.9;
       }
+
+
+
+      .btn-ticket-two {
+        display: block;
+        text-align: center;
+        background: linear-gradient(90deg, #bdc522, #8b5cf6);
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 14px;
+        border-radius: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        transition: opacity 0.2s ease;
+      }
+
+      .btn-ticket-two:hover {
+        opacity: 0.9;
+      }
+
+
+
+      .btn-ticket-three {
+        display: block;
+        text-align: center;
+        background: linear-gradient(90deg, #bdc522, #8b5cf6);
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 14px;
+        border-radius: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        transition: opacity 0.2s ease;
+      }
+
+      .btn-ticket-three:hover {
+        opacity: 0.9;
+      }
+
+
     </style>
   </head>
   <body>
     <div class="event-card">
-      <span class="badge">Live Concert</span>
-      <h1>Neon Nights 2026</h1>
+      <span class="badge">New Book</span>
+      <h1>Forgetting is Normal</h1>
 
       <div class="info-row">
         <span class="info-label">Date:</span>
-        <span>Friday, October 24</span>
+        <span>TBD (No idea when it'll be published)</span>
       </div>
       <div class="info-row">
         <span class="info-label">Venue:</span>
-        <span>Skyline Amphitheater</span>
+        <span>My new reading chair</span>
       </div>
       <div class="info-row">
         <span class="info-label">Doors:</span>
-        <span>7:00 PM EST</span>
+        <span>Never?</span>
       </div>
 
       <div class="lineup">
         <p>Featuring Performers</p>
         <ul>
-          <li>The Midnight Synthetics</li>
-          <li>Solar Flare</li>
-          <li>DJ Echo Waves</li>
+          <li>Briscoe</li>
+          <li>Fiona</li>
+          <li>Roo</li>
         </ul>
       </div>
 
-      <a href="#" class="btn-ticket">Get Tickets ($35)</a>
+      <a href="http://amazon.com/author/poojaagarwal" target="_blank" class="btn-ticket">Buy My Books (Amazon yuck)</a>
+      <br>
+      <a href="https://www.instagram.com/yourbestfriendsband" target="_blank" class="btn-ticket-two">Follow my favorite human</a>
+      <br>
+      <a href="profile.html" class="btn-ticket-three">Go to my profile</a>
+
     </div>
   </body>
 </html>
